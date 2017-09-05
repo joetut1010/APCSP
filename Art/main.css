@@ -12,6 +12,7 @@ html {
     margin-right: auto;
     box-shadow: 10px 10px 0px #8d8d8d
 }
+
 .red {
     background-color: red;
 }
@@ -41,6 +42,10 @@ html {
     float: right;
 }
 
+.left {
+    float: left;
+}
+
 #divider1 {
     height: 290px;
     width: 10px;
@@ -62,7 +67,7 @@ html {
 }
 
 #bottomrow {
-    height:100px;
+    height: 100px;
 }
 
 #smallbox {
@@ -74,9 +79,10 @@ html {
     height: 100px;
     width: 10px;
 }
+
 #longbox {
-    height:100px;
-    width:30px;
+    height: 100px;
+    width: 30px;
 }
 
 #divider4 {
@@ -95,12 +101,16 @@ html {
 }
 
 #ssmallbox {
-    height: 100px;
-    width: 20px;
-}
-
-#anotherbox {
     height: 45px;
     width: 20px;
 }
 
+#divider5 {
+    height 10px;
+    width: 20px;
+}
+
+#anotherbox {
+    height: 100px;
+    width: 260px;
+}

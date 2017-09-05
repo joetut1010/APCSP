@@ -1,0 +1,25 @@
+body,
+html {
+    background-color: #f6f6f6;
+}
+
+#BackgroundCard {
+    height: 210px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d
+}
+
+.white {
+    background-color: white;
+    font-family: cursive
+}
+
+.red {
+    background-color: red;
+}
+
+
+}
