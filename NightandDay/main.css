@@ -1,0 +1,118 @@
+.black {
+    background-color: black;
+}
+
+#orb {
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#sky {
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#planet1 {
+    padding: 20px;
+    position: absolute;
+    margin: 100px;
+    border-radius: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.visible {
+    background-color: #eaeff2
+}
+
+#planet2 {
+    position: absolute;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    height: 150px;
+    width: 150px;
+}
+
+#moonspot1 {
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#moonspot2 {
+    height: 80px;
+    float: right;
+    width: 80px;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+#moonspot3 {
+    float: right;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin: 20px;
+}
+
+.sun {
+    background-color: #ffdd00;
+    border: 10px solid #f1c40f;
+}
+
+.sun:hover {
+    border: 20px solid #f1c40f;
+}
+
+.moon {
+    background-color: #bdc3c7;
+    border: 10px solid #eaeff2
+}
+
+.moon:hover {
+    border: 20px solid #eaeff2
+}
+
+.night {
+    background-color: #2c3e50;
+}
+
+.day {
+    background-color: #37d8e6
+}
+
+.dark {
+    border: 10px solid darkblue;
+    background-color: dodgerblue;
+}
+
+.light {
+    border: 10px solid lightblue;
+    background-color: aquamarine;
+}

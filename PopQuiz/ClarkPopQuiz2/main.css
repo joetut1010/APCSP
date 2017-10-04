@@ -1,0 +1,92 @@
+#company-location {
+    font-family: sans-serif
+}
+
+#box {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: solid grey 1px;
+    font-family: sans-serif;
+}
+
+.GoldBox {
+    display: inline-block;
+    background-color: gold;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.BlueBox {
+    display: inline-block;
+    background-color: lightblue;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.RedBox {
+    display: inline-block;
+    background-color: lightcoral;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.tag1 {
+    display: inline-block;
+    background-color: saddlebrown;
+    padding: 14px;
+    border-radius: 10px;
+    color: white;
+    font-style: bold;
+}
+
+.tag2 {
+    display: inline-block;
+    background-color: lightcoral;
+    padding: 14px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    color: balck;
+    margin: auto;
+    margin-left: 275px;
+    font-style: bold;
+}
+
+#company {
+    font-size: 20px;
+}
+
+.Newest {
+    color: black;
+    padding-top: 10px;
+    font-style: bold;
+    font-size: 15px;
+}
+
+.NextBadge {
+    float: right;
+    color: black;
+    padding-top: 5px;
+    font-style: bold;
+    font-size: 15px;
+}
+
+h3 {
+    color: grey
+}
+
+#location {
+    color: grey;
+    font-size: 20px;
+}
