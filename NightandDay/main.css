@@ -50,9 +50,19 @@ body {
     padding: 20px;
     border-radius: 100%;
     right: 0;
-    left: 0;
     bottom: 0;
     top: 0;
+    height: 150px;
+    width: 150px;
+}
+
+#planet3 {
+    position: absolute;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 100%;
+    right: 0;
+    bottom: 0;
     height: 150px;
     width: 150px;
 }
@@ -106,6 +116,13 @@ body {
 .day {
     background-color: #37d8e6
 }
+
+.down {
+    background-color: purple;
+    bottom: 0;
+}
+
+.up {}
 
 .dark {
     border: 10px solid darkblue;

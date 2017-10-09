@@ -29,5 +29,17 @@ $(document).ready(function () {
         } else {
             $('#planet2').removeClass('dark').addClass('light');
         }
+
+        if ($('#planet3').hasClass('light')) {
+            $('#planet3').removeClass('light').addClass('dark');
+        } else {
+            $('#planet3').removeClass('dark').addClass('light');
+        }
+
+        if ($('#planet3').hasClass('light')) {
+            $('#planet3').removeClass('light').addClass('down');
+        } else {
+            $('#planet3').removeClass('down').addClass('light');
+        }
     });
 });
