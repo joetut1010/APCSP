@@ -32,10 +32,6 @@ body {
     position: absolute;
     margin: 100px;
     border-radius: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
     width: 150px;
     height: 150px;
 }
@@ -92,7 +88,7 @@ body {
 }
 
 .sun {
-    background-color: #ffdd00;
+    background-color: yellow;
     border: 10px solid #f1c40f;
 }
 
@@ -114,15 +110,19 @@ body {
 }
 
 .day {
-    background-color: #37d8e6
+    background-color: lightskyblue
 }
 
 .down {
-    background-color: purple;
     bottom: 0;
 }
 
-.up {}
+up {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
 
 .dark {
     border: 10px solid darkblue;
@@ -131,5 +131,5 @@ body {
 
 .light {
     border: 10px solid lightblue;
-    background-color: aquamarine;
+    background-color: lightcoral;
 }

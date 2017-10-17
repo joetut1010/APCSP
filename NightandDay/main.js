@@ -36,10 +36,18 @@ $(document).ready(function () {
             $('#planet3').removeClass('dark').addClass('light');
         }
 
-        if ($('#planet3').hasClass('light')) {
-            $('#planet3').removeClass('light').addClass('down');
+        if ($('#planet1').hasClass('up')
+
+        ) {
+            $('#planet1').removeClass('up').addClass('down');
         } else {
-            $('#planet3').removeClass('down').addClass('light');
+            $('#planet1').removeClass('down').addClass('up');
+        }
+
+        if ($('#planet2').hasClass('light')) {
+            $('#planet2').removeClass('down').addClass('light');
+        } else {
+            $('#planet2').removeClass('light').addClass('down');
         }
     });
 });
