@@ -1,0 +1,39 @@
+selector {
+    property: value;
+}
+
+.pagecontent {
+    padding: 24px;
+}
+
+.pagecontent2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-family: courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2em;
+    color: #FF0000;
+}
+
+h2 {
+    font-family: courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2em;
+    color: #0000FF;
+}
+
+p,
+li {
+    font-family: verdana;
+    font-size: 18px;
+    color: #5C5757;
+}
+
+li {
+    margin-bottom: 7px;
+}

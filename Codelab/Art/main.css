@@ -1,0 +1,116 @@
+body,
+html {
+    background-color: #f6f6f6;
+}
+
+#painting {
+    background-color: #fff4db;
+    width: 50vh;
+    height: 50vh;
+    margin-top: 3.75vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1.25vh 1.25vh 1.25vh #8d8d8d
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+#toprow {
+    height: 36.25vh;
+}
+
+#bigbox {
+    width: 36.25vh;
+    height: 36.25vh;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#divider1 {
+    height: 36.25vh;
+    width: 1.25vh;
+}
+
+#divider2 {
+    height: 2.25vh;
+    width: 12.5vh;
+}
+
+.mediumbox {
+    height: 12.5vh;
+    width: 5vh;
+}
+
+#middledivider {
+    width: 50vh;
+    height: 1.25vh;
+}
+
+#bottomrow {
+    height: 12.5vh;
+}
+
+#smallbox {
+    height: 12.5vh;
+    width: 12.5vh;
+}
+
+#divider3 {
+    height: 12.5vh;
+    width: 1.25vh;
+}
+
+#longbox {
+    height: 100px;
+    width: 30px;
+}
+
+#divider4 {
+    height: 12.5vh;
+    width: 1.25vh;
+}
+
+#ssmallbox2 {
+    height: 5.5vh;
+    width: 3vh;
+}
+
+#divider5 {
+    height: 10px;
+    width: 20px;
+}
+
+#ssmallbox {
+    height: 5.8vh;
+    width: 3vh;
+}
+
+#divider5 {
+    height: 1.25vh;
+    width: 3vh;
+}
+
+#anotherbox {
+    height: 12.5vh;
+    width: 32vh;
+}

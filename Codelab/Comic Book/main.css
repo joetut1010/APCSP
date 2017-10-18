@@ -1,0 +1,203 @@
+/*This sets the background color for our comic page*/
+
+html body {
+    background-color: #2b2b2b;
+}
+
+
+/*These IDs are for the invisible divs that will hold our comic together*/
+
+#page {
+    height: 100%;
+    width: 2150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#titleblock {
+    height: 160px;
+    width: 1200px;
+    padding-left: 10px;
+}
+
+
+/*These are the text styles for the headline and byline*/
+
+h1 {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 45px;
+    color: white;
+}
+
+h2 {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+}
+
+
+/*These IDs are for the panels that will make up our comic.*/
+
+#panel1 {
+    position: relative;
+    height: 500px;
+    width: 1500px;
+    border: 10px solid black;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+#panel.5 {
+    position: relative;
+    height: 100px;
+    width: 10px;
+    border: 10px solid black;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+#panel2 {
+    position: relative;
+    height: 280px;
+    width: 550px;
+    border: 10px solid black;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+#panel3 {
+    position: relative;
+    height: 280px;
+    width: 460px;
+    border: 10px solid black;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+#panel6 {
+    position: relative;
+    height: 280px;
+    width: 580px;
+    border: 10px solid black;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+#panel4 {
+    position: relative;
+    height: 280px;
+    width: 480px;
+    border: 10px solid black;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+#panel5 {
+    position: relative;
+    height: 280px;
+    width: 400px;
+    border: 10px solid black;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+#panel7 {
+    position: relative;
+    height: 280px;
+    width: 580px;
+    border: 10px solid black;
+    float: Left;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+/*These classes are for the different text styles we will be using in the comic*/
+
+.narration {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    margin: 10px;
+    background-color: black;
+}
+
+.bigtext {
+    font-family: "Comic Sans MS";
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 20px;
+    text-shadow: 2px 2px #2b2b2b;
+}
+
+
+/* These classes can position text and images within the panel.*/
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*These ids can be used fit specific images into our panels based on the dimensions of the image*/
+
+#image1 {
+    position: absolute;
+}
+
+
+/*These classes are for stacking or ordering elements on top of eachother.*/
+
+.inback {
+    z-index: 1;
+}
+
+.inmiddle {
+    z-index: 2;
+}
+
+.infront {
+    z-index: 3;
+}
+
+#panela1 {
+    position: relative;
+    height: 500px;
+    width: 600px;
+    border: 10px solid black;
+    float: right;
+    background-color: black;
+    overflow: hidden;
+}
