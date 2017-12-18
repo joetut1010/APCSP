@@ -48,7 +48,7 @@ $(document).ready(function () {
         months[9] = "October";
         months[10] = "November";
         months[11] = "December";
-        month = months[month - 1];
+        month = months[month];
 
         var weekday = new Array(7);
         weekday[0] = "Sun";

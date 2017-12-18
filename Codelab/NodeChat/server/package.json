@@ -1,14 +1,18 @@
 {
-  "name": "foxchat",
+  "name": "nodechat",
   "version": "1.0.0",
-  "description": "",
+  "description": "real time messaging",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jojo",
+  "keywords": [
+    "chat"
+  ],
+  "author": "ajlake",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
   }
 }
