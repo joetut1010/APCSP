@@ -28,11 +28,11 @@ $(document).ready(function () {
         clockDiv.innerText = hours + ":" + minutes + ":" + seconds + " " + merdiem;
     }
 
-    function displayDate() {
+function displayDate() {
         var currentDate = new Date();
-        var year = currentDate.getYear();
+    var year = currentDate.getYear();
         var month = currentDate.getMonth();
-        var date = currentDate.getDate();
+     var date = currentDate.getDate();
         var day = currentDate.getDay();
 
         var months = new Array(12);
