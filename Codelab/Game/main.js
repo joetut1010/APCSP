@@ -1,36 +1,50 @@
 var bg;
-var c1;
 
-// array: all the sprites in the game
-var sprites = [];
-Ship.canFire = true;
+var _sprites = [];
+var _player;
 
-//PLAYER
-var player;
 
 function setup() {
-    createCanvas(2850, 1400);
+    createCanvas(800, 600);
     bg = color(100);
-    c1 = new Ship(600, 600, 640, 600, 620, 560);
-    player = new Ship(width / 2, height - 100);
-    sprites.push(player);
-    sprites.push(c1);
+    _player = new Ship(400, 580, 440, 580, 420, 535, 1);
+    _sprites.push(_player);
+    
+    
+    _sprites.push(new RainDropShooter(500, 0, 2));
+    _sprites.push(new RainDropShooter(200, 0, 2));
+     
+    
+    _sprites.push(new RainDropEnemy(100, -950, 2));
+    _sprites.push(new RainDropEnemy(200, -100, 2));
+    _sprites.push(new RainDropEnemy(300, 0, 2));
+    _sprites.push(new RainDropEnemy(400, -950, 2));
+    _sprites.push(new RainDropEnemy(500, -400, 2));
+    _sprites.push(new RainDropEnemy(600, -1100, 2));
 
-
-    //ENIMES
-    for (var i = 0; i < 7; i++) {
-        var randomX = random(50, width - 50);
-        var randomY = random(-50, -2000);
-        sprites.push(new Enemy(randomX, randomY));
-    }
 }
 
 function draw() {
     background(bg);
+    for(var i = 0; i < _sprites.length; i++) {
+        _sprites[i].control();
+        for(var j = 0; j < _sprites.length; j++){
+            if(_sprites[i] && _sprites[j]){
+                checkCollisions(_sprites[i], _sprites[j]);
+            }
+        }
+    }
 
-    // for each sprite:
-    for (var i = 0; i < sprites.length; i++) {
-        // control it
-        sprites[i].control();
+}
+
+function checkCollisions(a,b){
+    if(a.isColliding(b) && a.team !== b.team){
+        a.handleCollision();
+        b.handleCollision();
+        
     }
 }
+
+
+    
+

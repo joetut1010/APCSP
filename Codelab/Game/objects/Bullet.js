@@ -1,25 +1,33 @@
-function Bullet(x, y, team) {
-    Sprite.call(this, x, y, team);
-    this.speed = 50;
+function Bullet(x, y, team, vector = 0) {
+
+    Sprite.call(this, x, y, team); 
+    this.vector = vector;
+    
 }
 
-Bullet.prototype = Object.create(Sprite.prototype);
-Bullet.prototype.constructor = Bullet
-Bullet.prototype.r = 40;
+Bullet.prototype = Object.create(Sprite.prototype);  
+Bullet.prototype.constructor = Bullet;
+Bullet.prototype.r = 10;
 
-//
-Bullet.prototype.move = function () {
-    this.y -= this.speed;
-    if (this.y < 0) {
-        console.log('destroy');
-        this.handleCollision();
+Bullet.prototype.move = function(){
+    if (this.vector != 0) {
+        this.y += this.vector.y;
+        this.x += this.vector.x;
+    } else {
+       this.y -= 10; 
     }
+    }
+    
+Bullet.prototype.display = function(){
+    if(this.y < 0 || this.y > height){
+        var index = _sprites.indexOf(this);
+        _sprites.splice(index, 1);
+    }
+        fill(255,0,0);
+        ellipse(this.x, this.y, this.r, this.r);
 }
+    
 
-Bullet.prototype.display = function () {
-    fill(255, 255, 0);
-    ellipse(this.x, this.y, this.r, this.r);
-}
 
 /*function Bullet(x, y, team) {
     var self = this;
